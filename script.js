@@ -155,7 +155,7 @@ showGltf("diya/scene", -25, 0, 10, 2);
 showGltf("diya/scene", 25, 0, 10, 2);
 showGltf("diya/scene", -25, 0, -10, 2);
 showGltf("diya/scene", 25, 0, -10, 2);
-showGltf("bow-and-arrow/scene", -12, 22.5, 0, 25, (model) => {
+showGltf("bow-and-arrow/scene", -12, 22.5, 2, 25, (model) => {
   model.rotation.set(-Math.PI / 2, 0, 0);
 });
 //--------------------------------------------
